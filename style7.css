@@ -1,0 +1,135 @@
+body {
+  background-color: black;
+  margin: 0rem;
+  padding: 0rem;
+  gap: 0rem;
+  font-family:monospace  ;
+  display: grid;
+  justify-items: center;
+  }
+  img{
+  border-radius: 5px;
+  }
+  a {
+  text-decoration: none;
+  color: #fb5b26;
+  font-size: 1.2rem;
+  }
+  
+  h1 {
+  color: rgb(203, 188, 167);
+  }
+  p{
+    color: rgb(106, 97, 82);
+    font-size: 1.1rem;
+    font-style: normal;
+  }
+  .inicio {
+    display: block;
+    width: 20rem;
+    margin-top: 5rem;
+    padding: 0rem 0rem 2.5rem 0rem ;
+    }
+    .setavoltar {
+      padding:0.7rem 2rem;
+      max-width: 5rem;
+      margin-left: 14rem;
+      display: inline;
+      align-items: center;
+      justify-self: left;
+      width: 5rem;
+      margin-top: 1rem;
+         }
+    .setavoltar:hover{
+    background-color: #373030;
+    padding:0.7rem 2rem;
+    border-radius: 5px;
+    }
+    span {
+      font-size: 1.2rem;
+    font-style: italic;
+    color: rgb(185, 160, 117);
+    }
+    .como-somos {
+    text-align: center;
+    padding: 2rem;
+    line-height: 2rem;
+    max-width: 900px;
+    }
+    .detalhe span{
+    width: 50px;
+    height: 2px;
+    color: #fb5b26;
+    }
+    .leitao img{
+    max-width: 35rem;
+    }
+    .leitao {
+    display: flexbox;
+    text-align: end;
+    justify-self: end;
+    }
+    .leitao  p{
+    border-radius: 5px;
+    color:  rgb(203, 188, 167);
+    font-size: 1.1rem;
+    line-height: 1rem;
+    font-style: normal;
+    }
+    .mauro p{
+    font-style:oblique;
+    }
+    .separador {
+    width: 10rem;
+  }
+  .camisa-leitao {
+    gap: -5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items:center;
+  justify-content: center;
+padding: 2rem;  
+}
+  .pedir{
+  padding: 0.5rem;
+  background-color: #fb5b26;
+  color: #373030;
+  border-radius: 5px;
+  }
+  .choque-cacete {
+  max-width: 30rem;
+  margin-left: -5rem;
+  }
+  .leitao2 img{
+    max-width: 35rem;
+    display: flexbox;
+    text-align: end;
+    justify-self: end;
+    }
+  .leitao2  p{
+    border-radius: 5px;
+    color:  rgb(203, 188, 167);
+    font-size: 1.1rem;
+    line-height: 1rem;
+    font-style: normal;
+    }
+    .choque-cacete2 {
+    width: 30rem;
+    margin-right: -5rem;
+      }
+   .camisa-leitao2 {
+    gap: -5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+    justify-content: center;
+    padding: 2rem;
+    }
+    .lista {
+      display: block;
+      align-content: center;
+    max-width: 1000px;
+    }
+    .traco {
+    padding: 2rem;
+    }

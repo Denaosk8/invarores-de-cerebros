@@ -1,0 +1,241 @@
+body {
+background-color: black;
+margin: 0rem;
+padding: 0rem;
+gap: 0rem;
+font-family:monospace  ;
+display: grid;
+justify-items: center;
+}
+img{
+border-radius: 5px;
+}
+a {
+text-decoration: none;
+color: #fb5b26;
+font-size: 1.2rem;
+}
+
+h1 {
+color: rgb(203, 188, 167);
+}
+p{
+  color: rgb(106, 97, 82);
+  font-size: 1.1rem;
+  font-style: normal;
+}
+.header {
+  display: flex;
+  flex-wrap:wrap;
+  justify-items:center;
+  padding: 20px 25px;
+  gap: 5rem;
+  border-radius: 4px;
+  background-color: rgb(29, 28, 28);
+  list-style: none;
+}
+.header a{
+padding: 0.5rem 1rem;
+border-radius: 5px;
+}
+.header a:hover {
+  background-color: brown;
+  color: darkgray;
+}
+
+.logo-inicio {
+max-width: 30%;
+margin-top: 2rem;
+padding: 0rem 0rem 2.5rem 0rem ;
+}
+.promo1 {
+max-width: 30rem;
+}
+.conteudo1 {
+  line-height: 30px;
+padding: 0rem 10rem;
+display:flex;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+}
+.conteudo1 a {
+gap: 20px;
+}
+.conteudo1-1{
+padding: 0rem 2rem 2rem 2rem;
+text-align: right;
+margin-bottom: 0rem;
+display: grid;
+align-content: center;
+justify-items: end;
+}
+
+.caveirinha {
+max-width: 10%;
+display:flex;
+margin: auto;
+padding: 1rem;
+}
+.conteudo1-1 a {
+  border-radius: 4px;
+background-color:#373030;
+padding: 0.6rem 1.5rem;
+}
+.icone-historia {
+display: block;
+padding: 0.5rem 1rem;
+border-radius: 5px;
+margin-top: 30px;
+max-width: 1200px;
+}
+.icone-historia:hover {
+background-color: #a52a2a;
+color: darkgray;
+}
+
+.conteudo2 {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: right;
+  background-color: #1f1d1d;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-image: url(./img/pltformas/fundin.png);
+  line-height: 30px;
+  padding: 2rem 19rem;
+  margin-top: 2rem;
+  }
+  .redes-sociais {
+    display:grid;
+    color: #1f1d1d;
+    grid-template-columns: 1fr 1fr;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 6rem;
+    max-width:350px ;
+    }
+    
+    
+    .redes-sociais ul{
+    padding: 3rem;
+    border-radius: 10px;
+    }
+    .insta:hover {
+    background-color:#373030;
+    }
+    .face:hover {
+    background-color:#373030;
+    }
+    .spotify:hover {
+    background-color:#373030;
+    }
+    .youtube:hover {
+    background-color:#373030;
+    }      
+  .setinha {
+  width:4rem;
+  padding: 0rem;
+  } 
+  .conteudo2 a {
+  gap: 20px;
+  }
+.conteudo1-2{
+padding: 2rem;
+text-align: left;
+display: grid;
+align-content: center;
+justify-items: start;
+  }
+.conteudo1-2 a {
+  border-radius: 4px;
+background-color:#373030;
+padding: 0.6rem 1.5rem;
+}
+.icone-historia2 {
+  display: block;
+  margin-top: 30px;
+  max-width: 1200px;
+  text-align: left;
+  }
+  .icone-historia2:hover {
+    background-color: brown;
+    color: darkgray;
+    }
+    
+    li{
+    text-decoration: none;
+    list-style: none;
+    }
+    .videos {
+    padding: 2rem;
+    }
+    .videos1 h2 {
+      font-size: 1.7rem;
+      color: #fb5b26;
+      }
+      .videos1 p {
+      line-height: 1.5rem;
+      }
+    .video {
+    max-height: 20rem;
+    border: solid;
+    border-color:#373030 ;
+    border-radius: 5px;
+    }
+   
+    .videos1 {
+    margin-inline: auto ;
+    gap: 5rem;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+     }
+    .caveritcha {
+    max-width: 3rem;
+    }
+    .lista-videos1 {
+    padding: 1rem 2.8rem;
+    display:inline-block;
+    justify-self: center;
+    border-radius: 5px;
+    margin-left: 7rem;
+    background-color:#1f1d1d;
+    }
+.lista-videos li {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-left: 4.5rem;
+  max-width: 800px;
+  border: 3px solid  #181717;
+  background-color:#1f1d1d ;
+  border-radius: 5px;
+  padding: 1rem 2rem ;
+  gap: 2rem;
+}
+.porradevida:hover {
+  padding: 1rem;
+  border-radius: 5px;
+  color: gray;
+background-color: #a52a2a;
+}
+.realidade:hover {
+  padding: 1rem;
+  border-radius: 5px;
+  color: gray;
+background-color: #a52a2a;
+}
+footer h2{
+font-size: 1.5rem;
+color: #373030;
+background-image: url(./img/agendaaberta2.jpg);
+text-align: center;
+}
+.setadoida-abanda {
+width: 1rem;
+background-color: aliceblue;
+}
+

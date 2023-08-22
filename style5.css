@@ -1,0 +1,134 @@
+
+body {
+  background-color: black;
+  margin: 0rem;
+  padding: 0rem;
+  gap: 0rem;
+  font-family:monospace  ;
+  display: grid;
+  justify-items: center;
+  }
+
+  a {
+  text-decoration: none;
+  color: #fb5b26;
+  font-size: 1.2rem;
+  }
+
+  h1 {
+  color: rgb(203, 188, 167);
+  }
+  h3{
+  margin: 0rem;
+  }
+  p{
+  color: rgb(106, 97, 82);
+  font-size: 1.1rem;
+  font-style: normal;
+}
+span {
+font-style: oblique;
+margin: 0px;
+
+}
+  .divididos {
+  margin-top: 0px;
+margin-bottom: 2rem;
+}
+
+  .inicio {
+  width: 20rem;
+  margin-top: 5rem;
+  padding: 0rem 0rem 2.5rem 0rem ;
+  }
+  .showsdabanda {
+    display: grid;
+    margin-top: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 1rem 2rem 0rem 2rem;
+    max-width: 1000px;
+    margin-bottom: 0rem;
+    }
+  
+  .setadoida-abanda {
+  max-width: 4rem;
+  }    
+
+  .caso {
+  text-align: center;
+  color: #373030;
+  text-decoration: underline;
+  font-style: italic;
+  }
+
+  .setavoltar {
+    padding:0.7rem 2rem;
+    max-width: 5rem;
+    margin-left: 14rem;
+    display: inline;
+    align-items: center;
+    justify-self: left;
+    width: 5rem;
+    margin-top: 1rem;
+       }
+  .setavoltar:hover{
+  background-color: #373030;
+  padding:0.7rem 2rem;
+  border-radius: 5px;
+  }
+
+  .shows {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  justify-content: center;
+  max-width:800px;
+  gap: 2rem;
+  }
+
+  .antes {
+  text-align: center;
+  }
+  .antes p{
+  color: #373030;
+  }
+  .antes h1{
+  padding: 0.3rem 1rem;
+  color: #373030;
+  background-color: #fb5b26;
+  border-radius: 5px;
+  }
+
+  .a2023 {
+  text-align: center;
+  }
+  
+  .a-2023 h1{
+  margin-bottom:3.4rem;
+  text-align: center;
+  padding: 0.3rem 1rem;
+  color:  rgb(203, 188, 167);
+  background-color: #373030;
+  border-radius: 5px;
+  }
+  .foto00 img {
+  width:20rem;
+  margin-top: 1rem;
+  }
+  .foto00 span{
+  color: #fb5b26;
+  }
+  .foto01 {
+  padding: 1rem;
+  background-color: #141414;
+  border-radius: 5px;
+  }
+  .foto01 span{
+  color: #fb5b26;
+  }
+  .foto01 img{
+  width:20rem;
+  }
+ 

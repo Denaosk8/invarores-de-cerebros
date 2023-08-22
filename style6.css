@@ -1,0 +1,131 @@
+body {
+  background-color: black;
+  margin: 0rem;
+  padding: 0rem;
+  gap: 0rem;
+  font-family:monospace  ;
+  display: grid;
+  justify-items: center;
+  }
+  img{
+  border-radius: 5px;
+  }
+  a {
+  text-decoration: none;
+  color: #fb5b26;
+  font-size: 1.2rem;
+  }
+  
+  h1 {
+  color: rgb(203, 188, 167);
+  }
+  p{
+    color: rgb(106, 97, 82);
+    font-size: 1.1rem;
+    font-style: normal;
+  }
+  .inicio {
+    display: block;
+    width: 20rem;
+    margin-top: 5rem;
+    padding: 0rem 0rem 2.5rem 0rem ;
+    }
+    .setavoltar {
+      padding:0.7rem 2rem;
+      max-width: 5rem;
+      margin-left: 14rem;
+      display: inline;
+      align-items: center;
+      justify-self: left;
+      width: 5rem;
+      margin-top: 1rem;
+         }
+    .setavoltar:hover{
+    background-color: #373030;
+    padding:0.7rem 2rem;
+    border-radius: 5px;
+    }
+  .tudo {
+    
+    padding: 5rem;
+    gap: 0rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    justify-items: start;
+    max-width: 900px;
+  }
+  .agendaaberta img{
+  max-width: 25rem;
+  margin-top: 2.6rem;
+  }
+  .infos {
+  display: block;
+  block-size: auto;
+  justify-content: end;
+  }
+  .email {
+  padding: 2rem;
+  margin-bottom: -1rem;
+  }
+ .email2 {
+  gap: 0rem;
+  display: inline;
+  vertical-align: middle;
+  }
+  .email img {
+  width: 5rem;
+  }.email:hover img{
+  background-color: rgb(35, 30, 30) ;
+  padding: 0.5rem;
+  }
+  .redessociais{
+    margin-top: 0-1rem;
+  padding: 2rem;
+  }
+  .links {
+
+  justify-items: center;
+  }
+  .links img{
+    display: inline;
+    vertical-align: middle;
+    gap: 7rem;
+  }
+  .dica {
+  font-style: oblique;
+  color: rgb(67, 60, 49);
+  }
+  .intaa img{
+    width: 4rem;
+  }
+  .youtubee  img{
+    width: 4rem;
+  }
+  .spotifyy img{
+    width: 3.2rem;
+  }
+  .facee img{
+    width: 3.3rem;
+  }
+  
+  .facee:hover {
+    padding: 1.3rem 0.2rem 1.5rem 0.9rem;
+    background-color: rgb(35, 30, 30);
+    border-radius: 5px;
+}
+  .spotifyy:hover {
+    padding: 1.3rem 0.2rem 1.5rem 0.9rem;
+    background-color:rgb(35, 30, 30);
+    border-radius: 5px;
+}
+  .youtubee:hover {
+    padding: 1.3rem 0.9rem 1.5rem 0.9rem;
+    background-color:rgb(35, 30, 30);
+    border-radius: 5px;
+  }
+  .intaa:hover {
+    padding: 1.3rem 0rem 1.6rem 0.7rem;
+    background-color:rgb(35, 30, 30);
+    border-radius: 5px;
+  }
